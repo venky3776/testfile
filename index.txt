@@ -1,0 +1,37 @@
+Here are some commonly asked Java questions and their corresponding answers:
+
+### 1. What is Java?
+
+Java is a high-level, general-purpose programming language developed by Sun Microsystems (now owned by Oracle) in 1995. It is designed to be platform-independent and can run on any device that has a Java Virtual Machine (JVM).
+
+### 2. What is the difference between JDK, JRE, and JVM?
+
+- JDK (Java Development Kit): It is a software development kit used to develop Java applications. It includes JRE, an interpreter/loader (Java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), and other tools needed for Java development.
+
+- JRE (Java Runtime Environment): It is an implementation of the Java Virtual Machine which executes Java programs. It includes the JVM, core classes, and supporting files.
+
+- JVM (Java Virtual Machine): It is an abstract machine that provides a runtime environment in which Java bytecode can be executed. It is responsible for converting bytecode into machine-specific code.
+
+### 3. What are the main features of Java?
+
+- Object-Oriented: Java is an object-oriented programming language.
+
+- Platform-Independent: Java programs can be run on any platform that has a Java Virtual Machine.
+
+- Simple: Java was designed to be easy to learn and use.
+
+- Secure: Java is secure and can protect the data from unauthorized access.
+
+- Multithreaded: Java supports the concept of multithreading, allowing concurrent execution of two or more parts of a program.
+
+### 4. What is the difference between an interface and an abstract class in Java?
+
+- Interface: It is a blueprint of a class. It only contains abstract methods that must be implemented by the class that implements the interface. Java does not support multiple inheritance, so a class can implement multiple interfaces.
+
+- Abstract Class: It is a class that can't be instantiated. It can have both abstract and non-abstract methods. An abstract class can also have fields and constructors. A class can extend only one abstract class.
+
+### 5. What is the difference between `==` and `.equals()` in Java?
+
+- `==` is used to compare the reference identity of two objects in memory.
+
+- `.equals()` is a method used to compare the contents of two objects.
